@@ -1,0 +1,167 @@
+/* @import "~font-awesome/css/font-awesome.css"; */
+
+/*authen modal*/
+
+.auth-form {
+    width: 500px;
+    background-color: #FDF3F4;
+    margin: 0 auto;
+    border-radius: 3px;
+    overflow: hidden;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.auth-form__container {
+    padding: 0 32px;
+}
+
+.auth-form__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 8px;
+}
+
+.auth-form__heading {
+    font-size: 2rem;
+    font-weight: 500;
+    color: #3b3a3a;
+}
+
+.auth-form__switch-btn {
+    font-size: 1.4rem;
+    color: #ee4d2d;
+    cursor: pointer;
+}
+
+
+.auth-form__input {
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    margin-top: 16px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    box-sizing: border-box;
+    padding: 12px;
+}
+
+
+
+.auth-form__input:focus {
+    border-color: #888;
+}
+
+.auth-form_policy-aside {
+    padding-top: 8px;
+}
+
+.auth-form_policy-text {
+    font-size: 0.9rem;
+    line-height: 1.4rem;
+    text-align: center;
+    padding:0 20px ;
+}
+
+.auth-form_policy-link {
+    text-decoration: none;
+    color: #ee4d2d;
+}
+
+.auth-form_controls {
+    margin-top: 30px;
+}
+
+/* button style*/
+
+
+.btn {
+    min-width: 120px;
+    height: 36px;
+    border: none;
+    border-radius: 2px;
+    font-size: 1rem;
+    cursor: pointer;
+    color: rgb(49, 48, 48);
+    
+}
+
+.btn.btn--primary {
+    background-color: #ee4d2d;
+    color: white ;
+    border: 1px solid #888;
+    width: 250px;
+    
+}
+
+.auth-form_controls {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    
+}
+
+.btn-back {
+    margin-right: 16px;
+    border: 1px solid #888;
+}
+
+
+.auth-form_social{
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(240, 239, 238);
+}
+
+.btn--with-icon {
+    height: 30px;
+    width: 150px;
+    background-color: #FAFAFA;
+    text-align: center;
+    text-decoration: none;
+    border: 1px solid #c0bdbd;
+    margin: 10px;
+    font-size: 0.6rem;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn-fb {
+    font-weight: 3500;
+    background-color: #3D548E;
+    color: white;
+    font-size: 0.7rem;
+}
+
+.btn-gg {
+    font-size: 0.7rem;
+}
+
+.icon {
+    margin-right: 5px;
+}
+
+.icon-fb {
+    background-color: white;
+    color: rgb(58, 57, 57);
+}
+
+.icon-gg {
+    background-color: white;
+    color: #000;
+}
+
+.auth-form_policy-a {
+    text-decoration: none;
+    color:#ee4d2d;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 0.8rem;
+}
