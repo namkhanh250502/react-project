@@ -1,10 +1,15 @@
-/* @import "~font-awesome/css/font-awesome.css"; */
+/*  @import "~font-awesome/css/font-awesome.css"; */
 
 /*authen modal*/
 
+/* #F6CBEC */
+
+
+
+
 .auth-form {
     width: 500px;
-    background-color: #FDF3F4;
+    background-color: #facdd2;
     margin: 0 auto;
     border-radius: 3px;
     overflow: hidden;
@@ -12,7 +17,6 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-
 }
 
 .auth-form__container {
@@ -32,10 +36,15 @@
     color: #3b3a3a;
 }
 
+.heading-forgot {
+    text-align: center;
+}
+
 .auth-form__switch-btn {
     font-size: 1.4rem;
     color: #ee4d2d;
     cursor: pointer;
+    text-decoration-line: none;
 }
 
 
@@ -48,6 +57,18 @@
     outline: none;
     box-sizing: border-box;
     padding: 12px;
+}
+
+.auth-form__email{
+    border-radius: 2px;
+    width: 100%;
+    height: 40px;
+    margin-top: 5px;
+    border: 1px solid #dbdbdb;
+    outline: none;
+    box-sizing: border-box;
+    padding: 12px;
+
 }
 
 
@@ -64,7 +85,7 @@
     font-size: 0.9rem;
     line-height: 1.4rem;
     text-align: center;
-    padding:0 20px ;
+    padding: 0 20px;
 }
 
 .auth-form_policy-link {
@@ -85,24 +106,24 @@
     border: none;
     border-radius: 2px;
     font-size: 1rem;
-    cursor: pointer;
-    color: rgb(49, 48, 48);
-    
+    width: 250px;
+    color: #dfdcdc
 }
 
 .btn.btn--primary {
     background-color: #ee4d2d;
-    color: white ;
+    color: white;
     border: 1px solid #888;
-    width: 250px;
-    
+    cursor: pointer;
+    color: rgb(238, 234, 234);
+
 }
 
 .auth-form_controls {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
-    
+
 }
 
 .btn-back {
@@ -111,7 +132,7 @@
 }
 
 
-.auth-form_social{
+.auth-form_social {
     padding: 0 20px;
     display: flex;
     justify-content: space-between;
@@ -142,6 +163,8 @@
 
 .btn-gg {
     font-size: 0.7rem;
+    color: rgb(49, 48, 48);
+
 }
 
 .icon {
@@ -160,8 +183,17 @@
 
 .auth-form_policy-a {
     text-decoration: none;
-    color:#ee4d2d;
+    color: #ee4d2d;
     display: flex;
     justify-content: flex-end;
     font-size: 0.8rem;
+}
+
+.link-login {
+    text-decoration: none;
+    font-size: 0.8rem;
+    color: #ee4d2d;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
 }
