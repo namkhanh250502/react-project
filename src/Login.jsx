@@ -19,7 +19,7 @@ function Login() {
     function login() {
         setLoadingAPI(true)
         let item = { username, password }
-        axios.post('http://localhost:3000/account/login', item)
+        axios.post('http://localhost:3001/account/login', item)
             .then(res => {
                 console.log('res then: ', res);
                 if (res || res.data.result.token) {

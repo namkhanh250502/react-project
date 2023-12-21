@@ -1,6 +1,6 @@
 import React, { useState } from "react";
-import { Routes, Route, Link } from 'react-router-dom'
-import { FacebookOutlined, GoogleOutlined, LoadingOutlined } from '@ant-design/icons'
+import { Link } from 'react-router-dom'
+import {  LoadingOutlined } from '@ant-design/icons'
 import './Accounts.css'
 import axios from "axios";
 import { ToastContainer, toast } from "react-toastify";
@@ -14,7 +14,7 @@ function ForgotPass() {
 
     function forgot() {
         setLoadingAPI(true)
-        axios.put('http://localhost:3000/account/forgot-password', { email })
+        axios.put('http://localhost:3001/account/forgot-password', { email })
             .then(res => {
                 console.log('res then: ', res);
                 toast.success('Mật khẩu mới đã được gửi tới email của bạn', {

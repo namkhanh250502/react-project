@@ -18,7 +18,7 @@ function Register() {
     function register() {
         setLoading(true)
         let item = { username, email, password }
-        axios.post('http://localhost:3000/account/register', item)
+        axios.post('http://localhost:3001/account/register', item)
             .then(res => {
                 console.log('res: ', res);
                 toast.success(res.data.message, {
