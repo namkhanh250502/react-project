@@ -6,6 +6,7 @@ import UseEffect from './UseEffect';
 import Register from './Register';
 import Login from './Login';
 import ForgotPass from './Forgotpass';
+import HomeScreen from './Home';
 
 function App() {
 
